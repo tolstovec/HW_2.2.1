@@ -17,11 +17,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E8h-tu-Rns">
-                                <rect key="frame" x="20" y="67" width="374" height="403.5"/>
+                                <rect key="frame" x="20" y="66" width="374" height="403.5"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="Llm-8Y-y8N">
-                                <rect key="frame" x="20" y="504.5" width="374" height="110.5"/>
+                                <rect key="frame" x="20" y="503.5" width="374" height="110.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="ibu-DS-QS7">
                                         <rect key="frame" x="0.0" y="4.5" width="52.5" height="101.5"/>
@@ -104,7 +104,7 @@
                         <constraints>
                             <constraint firstItem="Llm-8Y-y8N" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="EeA-7R-nUD"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Llm-8Y-y8N" secondAttribute="trailing" constant="20" id="Otr-OO-nmw"/>
-                            <constraint firstItem="E8h-tu-Rns" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="23" id="P9E-T1-Sai"/>
+                            <constraint firstItem="E8h-tu-Rns" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="22" id="P9E-T1-Sai"/>
                             <constraint firstItem="Llm-8Y-y8N" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Vox-5E-uEN"/>
                             <constraint firstItem="bYw-HT-Ygb" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.577295" id="ZqH-3t-ZYy"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="E8h-tu-Rns" secondAttribute="trailing" constant="20" id="aVm-0T-0DE"/>
